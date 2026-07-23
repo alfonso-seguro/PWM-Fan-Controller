@@ -200,6 +200,8 @@ void updateDisplay(float tempC, float humidity, uint16_t rpm, bool sensorOk) {
     display.println(F("SENSOR FAULT"));
     display.println(F("FAIL-SAFE: 100%"));
   } else {
+    //aseguro
+
     display.setTextSize(2);
     display.print(F("SYSTEM OK "));
     display.print(F("Temp: "));
